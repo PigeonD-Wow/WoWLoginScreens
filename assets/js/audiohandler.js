@@ -14,18 +14,18 @@ var expansionMap = [
 
 var audioPath = './assets/audio';
 var videoPath = './assets/img/bg';
-var logoPath = './assets/img/ui/logos';
+var logoPath = './assets/img/ui/logos/zhtw';
 
 var verMap = [
-    'Version 1.12.1 (5875) (Release)',
-    'Version 2.4.3 (8606) (Release)',
-    'Version 3.3.5 (12340) (Release)',
-    'Version 4.3.4 (15595) (Release x86)',
-    'Version 5.4.8 (18414) (Release x86)',
-    'Version 6.2.0 (20173) (Release x64)',
-    'Version 7.3.5 (26365) (Release x64)',
-    'Version 8.3.7 (35662) (Release x64)',
-    'Version 9.0.1 (35944) (Release x64)'
+    '版本 1.12.1 (5875) (正式版本)',
+    '版本 2.4.3 (8606) (正式版本)',
+    '版本 3.3.5 (12340) (正式版本)',
+    '版本 4.3.4 (15595) (正式版本 x86)',
+    '版本 5.4.8 (18414) (正式版本 x86)',
+    '版本 6.2.0 (20173) (正式版本 x64)',
+    '版本 7.3.5 (26365) (正式版本 x64)',
+    '版本 8.3.7 (35662) (正式版本 x64)',
+    '版本 9.0.1 (35944) (正式版本 x64)'
 ];
 
 var dateMap = [
@@ -123,14 +123,14 @@ function getPositionInQueue()
         }
     }
 
-    document.getElementById('queuePosition').innerHTML = 'Position in Queue: ' + number;
+    document.getElementById('queuePosition').innerHTML = '您在佇列中的位置：' + number;
     getEstimatedTime(number)
 }
 
 function getEstimatedTime(qPos)
 {
     var time = Math.floor(Math.floor(qPos*2*3*2 + ((qPos*2*3*3) - (qPos*2*3*2)) * Math.random()) * 0.01);
-    document.getElementById('queueTime').innerHTML = 'Estimated time: ' + time + ' min';
+    document.getElementById('queueTime').innerHTML = '預計等待時間：' + time + ' 分鐘';
 }
 
 function doDisconnect()
@@ -182,7 +182,7 @@ function switchExpansion()
     logo.style.background = `url(${logoPath}/${expName}.png)`;
     version.textContent = verMap[expansion];
     date.textContent = dateMap[expansion];
-    copyright.textContent = `Copyright 2004-${copyMap[expansion]} Blizzard Entertainment. All Right Reserved.`;
+    copyright.textContent = `版權所有2004-${copyMap[expansion]}暴雪娛樂。保留所有權利。`;
     setButtonColors(buttonColorMap[expansion]);
     
     bg.load();

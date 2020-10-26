@@ -254,12 +254,12 @@ html, body {
     position: absolute;
     top: -30px;
     left: -95px;
-    width: 633px;
-    height: 289px;
+    width: 512px;
+    height: 256px;
     border: none;
     outline: none;
     display: inline-block;
-    background: url('../img/ui/logos/Shadowlands.png') no-repeat top;
+    background: url('../img/ui/logos/zhtw/Shadowlands.png') no-repeat top;
     background-color: transparent;
     transform: scale(0.65);
     transition: 0.2s;
