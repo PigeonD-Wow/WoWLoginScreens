@@ -6,8 +6,8 @@ html, body {
 }
 
 @font-face{
-    font-family: 'FRIZQT';
-    src: url('../fonts/FRIZQT__.ttf');
+    font-family: 'bLEI00D';
+    src: url('../fonts/bLEI00D.ttf');
 }
 
 .noSelect {
@@ -63,7 +63,7 @@ html, body {
 }
 
 #copyrightText {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 15px;
     text-align: left;
     color: #ffc700;
@@ -72,7 +72,7 @@ html, body {
 
 #buildDate {
     position: fixed;
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 15px;
     text-align: left;
     color: #ffc700;
@@ -84,7 +84,7 @@ html, body {
 
 #buildVersion {
     position: fixed;
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 15px;
     text-align: left;
     color: #ffc700;
@@ -105,7 +105,7 @@ html, body {
 }
 
 .queueText {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 22px;
     text-align: center;
     color: #ffc700;
@@ -113,7 +113,7 @@ html, body {
 }
 
 .text {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 14px;
     text-align: left;
     color: #ffc700;
@@ -137,7 +137,7 @@ html, body {
 }
 
 .button {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 23px;
     text-align: center;
     color: #ffc700;
@@ -157,7 +157,7 @@ html, body {
 }
 
 .button:hover {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     text-align: center;
     color: #ffffff;
     text-shadow: 0 0 8px #000, 0 0 8px #000, 0 0 8px #000, 0 0 8px #000, 0 0 8px #000;
@@ -166,7 +166,7 @@ html, body {
 }
 
 .button:active {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 22px;
     text-align: center;
     color: #ffffff;
@@ -176,7 +176,7 @@ html, body {
 }
 
 .button_b {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 23px;
     text-align: center;
     color: #ffc700;
@@ -196,7 +196,7 @@ html, body {
 }
 
 .button_b:hover {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     text-align: center;
     color: #ffffff;
     text-shadow: 0 0 8px #000, 0 0 8px #000, 0 0 8px #000, 0 0 8px #000, 0 0 8px #000;
@@ -205,7 +205,7 @@ html, body {
 }
 
 .button_b:active {
-    font-family: 'FRIZQT';
+    font-family: 'bLEI00D';
     font-size: 22px;
     text-align: center;
     color: #ffffff;
